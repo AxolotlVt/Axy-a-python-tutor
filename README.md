@@ -53,7 +53,7 @@ Start Ollama with:
 The app currently uses the "phi3" model by default, so make sure that model
 is available:
 
-    ollama pull phi3
+    ollama pull Qwen-2.5-Coder:1.5B
 
 If Ollama is not running, Axy may show connection errors or tell you to run
 "ollama serve" in another terminal.
@@ -96,11 +96,8 @@ DATA AND FILES
 
 Important project files:
 
-- main.py
-  Main Streamlit app
-
-- launch_axy.py
-  Launcher for local app startup
+- Axy.exe
+  Main app
 
 - Axy/
   Core app package
@@ -127,7 +124,7 @@ TROUBLESHOOTING
 If the app opens but responses fail:
 
 - Make sure Ollama is running
-- Make sure the phi3 model is installed
+- Make sure the Qwen-2.5-Coder:1.5B model is installed
 - Check launcher.log for startup details
 
 If the browser does not open automatically:
@@ -141,21 +138,6 @@ If Spotify features do not work:
 - Make sure your Spotify secret is configured
 - Make sure the encrypted Spotify files exist if you use file-based setup
 - Make sure Spotify has an active device ready for playback
-
-======================================================================
-TESTS AND BUILDING
-======================================================================
-
-requirements.txt is runtime-only.
-
-If you want to run tests, install pytest separately:
-
-    pip install pytest
-    pytest -q
-
-If you want to build the executable, install PyInstaller separately:
-
-    pip install pyinstaller
 
 ======================================================================
 SUMMARY
