@@ -164,3 +164,4 @@ SUMMARY
 Axy is a local Python mentor app powered by Streamlit and Ollama, with chat,
 learning progress, and optional Spotify support. Install the runtime
 requirements, start Ollama, and launch the app.
+"# Axy-a-python-tutor" 
