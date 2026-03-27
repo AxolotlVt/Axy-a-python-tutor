@@ -1,0 +1,65 @@
+{
+  "Ax": {
+    "password": "9993e4f10f98bef013e9d53ae8b5ea8a239b6ed4024020aa6fe52dc8c0731ce6",
+    "mastery_points": 75,
+    "tier": 0,
+    "mastery_data": {
+      "total_points": 75,
+      "categories": {
+        "fundamentals": {
+          "variables": {
+            "points": 75,
+            "level": 1,
+            "completed": true
+          }
+        }
+      },
+      "unlocked_doors": [
+        "fundamentals"
+      ],
+      "completed_topics": [
+        "fundamentals/variables",
+        "fundamentals/variables",
+        "fundamentals/variables"
+      ],
+      "points_per_category": {
+        "fundamentals": 75
+      },
+      "streak": 0,
+      "last_activity": null
+    }
+  },
+  "Axo": {
+    "password": "9993e4f10f98bef013e9d53ae8b5ea8a239b6ed4024020aa6fe52dc8c0731ce6",
+    "mastery_points": 55,
+    "tier": 0,
+    "mastery_data": {
+      "total_points": 55,
+      "categories": {
+        "fundamentals": {
+          "lists": {
+            "points": 30,
+            "level": 1,
+            "completed": false
+          },
+          "variables": {
+            "points": 25,
+            "level": 1,
+            "completed": true
+          }
+        }
+      },
+      "unlocked_doors": [
+        "fundamentals"
+      ],
+      "completed_topics": [
+        "fundamentals/variables"
+      ],
+      "points_per_category": {
+        "fundamentals": 55
+      },
+      "streak": 0,
+      "last_activity": null
+    }
+  }
+}

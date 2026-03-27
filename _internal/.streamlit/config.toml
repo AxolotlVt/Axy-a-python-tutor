@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#a156e0"      # Main purple for avatars, buttons, accents
+secondaryBackgroundColor = "#1e1e1e"  # Chat bubbles background
+backgroundColor = "#0e0e0e"   # Main app background (dark)
+textColor = "#e0e0e0"         # Text color
+
+[server]
+enableCORS = false
+enableXsrfProtection = false

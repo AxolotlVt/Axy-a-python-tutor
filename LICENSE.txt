@@ -1,0 +1,27 @@
+Copyright (c) 2026 Axo
+All Rights Reserved.
+
+Software: Axy
+Developer: Axo
+
+1. Grant of License
+This software is strictly proprietary. The Developer, Axo, retains all right, title, and interest in and to the Software, including all copyrights, patents, trade secrets, trademarks, and other intellectual property rights.
+
+2. Restrictions
+You may NOT, without express written permission from the Developer:
+
+Copy, duplicate, or reproduce the Software in any manner.
+
+Distribute, share, or transmit the Software to any third party.
+
+Modify, adapt, translate, reverse engineer, decompile, or disassemble the Software.
+
+Create derivative works based on the Software.
+
+Rent, lease, loan, sell, or sublicense the Software.
+
+3. Enforcement
+Unauthorized use, reproduction, or distribution of this Software is strictly prohibited and may result in severe civil and criminal penalties. The Developer reserves the right to take legal action against any unauthorized use.
+
+4. Disclaimer of Warranty
+THIS SOFTWARE IS PROVIDED BY THE DEVELOPER "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
