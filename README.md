@@ -50,7 +50,7 @@ Start Ollama with:
 
     ollama serve
 
-The app currently uses the "phi3" model by default, so make sure that model
+The app currently uses the "Qwen-2.5-Coder:1.5B" model by default, so make sure that model
 is available:
 
     ollama pull Qwen-2.5-Coder:1.5B
