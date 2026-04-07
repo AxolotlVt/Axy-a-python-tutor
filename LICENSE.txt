@@ -13,7 +13,7 @@ Notwithstanding the restrictions above, the Developer grants a limited, non-excl
 2. Restrictions
 You may NOT, without express written permission from the Developer:
 
-Copy, duplicate, or reproduce the Software in any manner.
+Copy or duplicate the Software in any manner.
 
 Distribute, share, or transmit the Software to any third party.
 
