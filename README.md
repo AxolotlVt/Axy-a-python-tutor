@@ -1,149 +1,115 @@
-AXY
-Local Python Mentor
+AXY — Local Python Mentor
 
-Axy is a local Streamlit app that acts like a Python mentor and learning
-assistant. It keeps chat history on your machine, tracks learning progress,
-and can optionally connect to Spotify.
+Axy is a fully local AI-powered Python learning assistant built with Streamlit and Ollama. It is designed for structured programming education with mastery tracking, practice modes, and formative assessment.
 
-The app is designed to run locally and talk to a local Ollama server for AI
-responses.
+1. Core Features
+Chat-based Python tutoring with guided explanations
+Mastery/progression system based on competencies
+Practice, quiz, and challenge modes
+Code evaluation with feedback loops
+Fully local AI inference via Ollama
+Persistent local user data
 
-======================================================================
-WHAT AXY DOES
-======================================================================
+===============================================================================
+2. System Architecture
+Axy.exe → main application launcher (user entry point)
+Streamlit app → UI and tutoring logic
+Ollama runtime → local model inference
+Local storage → user progress, sessions, and logs
+install.bat → full automated setup system
 
-- Chat-based Python help and mentoring
-- Local conversation history and user data
-- Mastery / progress system for learning
-- Optional Spotify playback integration
-- Windows-friendly launcher with automatic browser opening
+===============================================================================
+3. Installation
+Distribution format
 
-======================================================================
-RUNTIME REQUIREMENTS
-======================================================================
+Axy is distributed as a .rar archive containing the full system.
 
-You need:
+Setup process
+Extract the .rar file
+Run:
+install.bat
+What the installer does
 
-- Python
-- Ollama installed locally
-- The Python packages from requirements.txt
+The installer automatically:
 
-Current runtime packages:
+Checks Python installation
+Installs required Python dependencies
+Installs or configures Ollama
+Downloads required model (qwen2.5-coder:1.5b)
+Prepares runtime environment
 
-- requests
-- cryptography
-- spotipy
-- streamlit
-- psutil
+No manual setup of dependencies or AI models is required.
 
-Install them with:
+===============================================================================
+4. Running Axy
+Main method (recommended)
+Run Axy.exe
 
-    pip install -r requirements.txt
+This:
+starts the application
+connects to local AI backend
+opens the browser interface automatically
+Developer mode (optional)
+streamlit run main.py
 
-======================================================================
-OLLAMA SETUP
-======================================================================
+===============================================================================
+5. System Requirements
 
-Axy expects a local Ollama server.
+All runtime requirements are handled automatically by the installer.
+Manual requirements only if running outside installer:
 
-Start Ollama with:
+Python 3.10+
+Windows OS
+Local environment permissions for installs
+at least 4 Gigabytes of free space
+at least 4 Gigabytes of Ram
+===============================================================================
+6. Data Storage
 
-    ollama serve
+All data is stored locally.
 
-The app currently uses the "Qwen-2.5-Coder:1.5B" model by default, so make sure that model
-is available:
+Structure
+data/ → user accounts, mastery progress, session history
+launcher.log → system logs
 
-    ollama pull Qwen-2.5-Coder:1.5B
+No cloud storage or external transmission is required for core functionality.
 
-If Ollama is not running, Axy may show connection errors or tell you to run
-"ollama serve" in another terminal.
+===============================================================================
+7. Learning System
 
-======================================================================
-HOW TO RUN AXY
-======================================================================
+Axy is designed as a competency-based tutoring system.
 
-Option 1: Run the Streamlit app directly
+Key components
+Mastery tracking per topic
+Competency-aligned progression model
+Points system based on understanding and performance
+Code evaluation with structured feedback
+Retry-based learning loops
+Modes
+Chat mode → explanation and tutoring
+Test mode → assessment
+Challenge mode → micro coding tasks
 
-    streamlit run main.py
+===============================================================================
+8. Troubleshooting
+Axy does not start
+Re-run install.bat
+Ensure extracted folder is intact
+AI not responding
+Ensure Ollama is running (handled automatically by installer if needed)
+Re-run installer if model is missing
+System issues
+Delete and reinstall via .rar package if corrupted
+Ensure Windows permissions allow installation
 
-Option 2: Run the launcher
+===============================================================================
+9. Summary
 
-    python launch_axy.py
+Axy is a fully local AI tutoring system for Python education, designed for classroom deployment.
 
-The launcher is the friendlier option. It prepares the runtime environment
-and tries to open the browser automatically.
+It provides:
 
-======================================================================
-OPTIONAL SPOTIFY SETUP
-======================================================================
-
-Spotify support is optional.
-
-You can provide the Spotify client secret with an environment variable:
-
-    SPOTIPY_CLIENT_SECRET=your_client_secret
-
-Or create encrypted local files with:
-
-    python scripts/create_spotify_secret.py --secret YOUR_CLIENT_SECRET
-
-This writes encrypted Spotify files into the data folder. Keep those files
-private.
-
-======================================================================
-DATA AND FILES
-======================================================================
-
-Important project files:
-
-- Axy.exe
-  Main app
-
-- Axy/
-  Core app package
-
-- data/
-  Local runtime data such as chat history and user data
-
-- requirements.txt
-  Runtime Python dependencies
-
-- Axy.spec
-  PyInstaller spec file for building an executable
-
-Notes:
-
-- In source mode, runtime data stays under the local data folder.
-- In a frozen executable build, runtime data may move to a per-user app folder.
-- Launcher logs are written to launcher.log in the active runtime location.
-
-======================================================================
-TROUBLESHOOTING
-======================================================================
-
-If the app opens but responses fail:
-
-- Make sure Ollama is running
-- Make sure the Qwen-2.5-Coder:1.5B model is installed
-- Check launcher.log for startup details
-
-If the browser does not open automatically:
-
-- Run python launch_axy.py again
-- Or open the local Streamlit URL manually if it is shown in the terminal or
-  launcher message
-
-If Spotify features do not work:
-
-- Make sure your Spotify secret is configured
-- Make sure the encrypted Spotify files exist if you use file-based setup
-- Make sure Spotify has an active device ready for playback
-
-======================================================================
-SUMMARY
-======================================================================
-
-Axy is a local Python mentor app powered by Streamlit and Ollama, with chat,
-learning progress, and optional Spotify support. Install the runtime
-requirements, start Ollama, and launch the app.
-"# Axy-a-python-tutor" 
+automated installation via batch script
+local AI inference through Ollama
+structured learning and assessment system
+competency-based educational alignment
