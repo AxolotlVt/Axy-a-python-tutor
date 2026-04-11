@@ -1,30 +1,125 @@
+AXY SOFTWARE LICENSE AGREEMENT (EDUCATIONAL USE – CONTROLLED DEPLOYMENT)
+
 Copyright (c) 2026 Axo
-All Rights Reserved.
+All rights reserved.
 
 Software: Axy
 Developer: Axo
 
-1. Grant of License
-This software is strictly proprietary. The Developer, Axo, retains all right, title, and interest in and to the Software, including all copyrights, patents, trade secrets, trademarks, and other intellectual property rights.
+1. Ownership
 
-1.1 Limited Educational Use
-Notwithstanding the restrictions above, the Developer grants a limited, non-exclusive license to the students and faculty of "Colegio Diocesano Ricaurte de Fusagasuga" to download and execute the Software for educational and classroom purposes only. This permission does not include the right to modify or redistribute the Software without the consent or approval of the developer(Axo).
+This Software, including all source code, compiled binaries, models, prompts, documentation, and related materials (collectively “Software”), is the exclusive property of Axo.
 
-2. Restrictions
-You may NOT, without express written permission from the Developer:
+All rights are reserved under applicable copyright and intellectual property laws.
 
-Copy or duplicate the Software in any manner.
+No rights are transferred or assigned under this License except as explicitly stated.
 
-Distribute, share, or transmit the Software to any third party.
+2. License Grant (Restricted Educational Use)
 
-Modify, adapt, translate, reverse engineer, decompile, or disassemble the Software.
+The Developer grants a limited, non-exclusive, non-transferable, revocable license to:
 
-Create derivative works based on the Software.
+Colegio Diocesano Ricaurte de Fusagasugá
 
-Rent, lease, loan, sell, or sublicense the Software.
+for internal educational use only, subject to the terms below.
 
-3. Enforcement
-Unauthorized use, reproduction, or distribution of this Software is strictly prohibited and may result in severe civil and criminal penalties. The Developer reserves the right to take legal action against any unauthorized use.
+Permitted use includes:
 
-4. Disclaimer of Warranty
-THIS SOFTWARE IS PROVIDED BY THE DEVELOPER "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classroom learning activities
+Supervised student interaction with the Software
+Teacher-led instruction and evaluation
+Local installation on institution-owned devices for educational purposes
+3. Deployment Scope
+
+The Software may be installed:
+
+On school-owned or school-managed devices
+On personal devices only when explicitly authorized by the institution for educational use
+
+The institution may:
+
+Deploy copies across internal machines
+Maintain local installations for operational use
+
+The institution may NOT:
+
+Expose the Software as a public or commercial service
+Offer it outside the institution’s educational environment
+4. Restrictions
+
+Without prior written permission from the Developer, users may NOT:
+
+Copy, distribute, or publish the Software outside the licensed institution
+Sell, sublicense, or commercially exploit the Software
+Modify, reverse engineer, decompile, or disassemble any part of the Software
+Extract or reuse models, prompts, scoring systems, or internal logic
+Remove or alter any copyright or attribution notices
+Use the Software for unrelated commercial or non-educational purposes
+5. Data and Privacy Scope
+
+All user data generated through the Software remains local to the institution unless otherwise configured by the Developer.
+
+The Developer does not access, collect, or transmit user data by default.
+
+The institution is responsible for:
+
+Local data storage integrity
+Compliance with internal privacy policies
+6. Intellectual Property Protection
+
+All components of Axy, including but not limited to:
+
+mastery system
+scoring algorithms
+pedagogical mappings (e.g., MEN alignment structure)
+prompt architecture
+deployment scripts
+
+are protected intellectual property of the Developer.
+
+7. Updates and Versions
+
+This License applies to the current version of the Software.
+
+Updates may:
+
+Modify functionality
+Replace components
+Require reinstallation
+
+Unless otherwise specified, updates do not change licensing terms.
+
+8. Termination
+
+This license is automatically terminated if:
+
+The institution violates any restriction in this agreement
+Unauthorized redistribution or modification is detected
+
+Upon termination, all copies must be deleted or disabled.
+
+9. Disclaimer of Warranty
+
+The Software is provided “AS IS”, without warranty of any kind, express or implied.
+
+The Developer does not guarantee:
+
+uninterrupted operation
+error-free performance
+compatibility with all environments
+10. Limitation of Liability
+
+To the maximum extent permitted by law, the Developer shall not be liable for:
+
+any direct or indirect damages
+data loss
+system failures
+educational or operational outcomes resulting from use of the Software
+11. Governing Context
+
+This License is intended for use within the educational jurisdiction of Colombia and should be interpreted in accordance with applicable local intellectual property and contractual laws.
+
+12. Contact
+
+All requests for expanded use, modification rights, or redistribution must be directed to:
+
+Developer: Axo
